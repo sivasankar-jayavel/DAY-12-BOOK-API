@@ -1,0 +1,83 @@
+body {
+    background-image:radial-gradient(rgb(202, 141, 187),rgb(127, 182, 93));
+}
+
+#titles {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#title,
+#sub-title {
+    
+    text-align: center;
+    margin-bottom: 0%;
+    color: rgb(25, 58, 2);
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    color: rgb(42, 4, 30);
+}
+
+.col {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+#body-head,
+#of,
+#author_name {
+    text-align: center;
+    margin: 0%;
+}
+
+#body-head {
+    color: rgb(243, 238, 233);
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#of {
+    color: rgb(251, 245, 239);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#author_name {
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+#rr {
+    font-weight: bolder;
+    font-style: italic;
+    color:rgb(24, 2, 2);
+}
+
+#books {
+    align-content: center;
+    width: 240px;
+    color: rgb(126, 11, 11);
+}
+
+.name,
+.isbn,
+.char,
+.rdate,
+.nfp,
+.author,
+.pub {
+    color: rgba(28, 13, 18, 0.948);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
